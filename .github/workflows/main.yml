@@ -3,7 +3,7 @@ name: Run my python
 on: 
   push: # do this every push
   schedule:
-  - cron: "10 * * * *"
+  - cron: "30 * * * *"
 
 jobs:
   build:
